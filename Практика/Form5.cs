@@ -95,12 +95,18 @@ namespace Практика
             conn.Close();
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+
+        private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form5_Load_1(object sender, EventArgs e)
         {
             // присваеваем переменную подключения к бд
             conn = ConnBaza.ConnBaz(connStr);
             //Вызываем метод для заполнение дата Грида
-            GetListUsers(listBox1);
+            GetListUsers(listBox2);
         }
     }
 }
