@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F97DFBD3-0617-4F1B-9555-96FD348C78E8}</ProjectGuid>
+    <ProjectGuid>{43BA4204-46AA-4DAF-B79B-DEDFDC0DFEB8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ConnDBDLL</RootNamespace>
